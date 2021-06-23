@@ -19,7 +19,7 @@ namespace CursoAPI.Controllers
         {
             _context = context;
         }
-
+         
         // GET: api/Produtos
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Produto>>> GetProduto()
